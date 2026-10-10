@@ -21,7 +21,7 @@ svg.i{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:1.8;
 /* sidebar */
 .side{position:fixed;top:0;left:0;bottom:0;width:var(--rail);background:var(--side);border-right:1px solid var(--line);padding:34px 24px 24px;display:flex;flex-direction:column;align-items:center;overflow:auto;z-index:3}
 .avatar{width:128px;height:128px;border-radius:50%;background-color:#EAEAE2;background-image:url('assets/avatar.png');background-size:cover;background-position:center;box-shadow:0 0 0 8px rgba(201,211,255,.35)}
-.side h1{font-size:1.5rem;margin-top:18px;display:flex;align-items:center;gap:8px;color:var(--dark)}
+.side h1{font-size:1.5rem;margin-top:18px;display:flex;align-items:center;gap:8px;color:var(--purple)}
 .side .handle{color:var(--muted);margin-top:2px}
 .socials{display:flex;gap:10px;margin:18px 0 22px}
 .socials a{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:#fff;display:grid;place-items:center;font-weight:700;font-size:.8rem;text-decoration:none;color:var(--dark);transition:transform .2s,border-color .2s}
@@ -248,11 +248,11 @@ textarea{min-height:130px;resize:vertical}
 const SITE = {
   name: "Ruby Anne Aguilar",
   role: "Freelance Web Designer",
-  handle: "@yourhandle",
+  handle: "@ruby_virtualassistant",
   buttonText: "Get in touch",
   headline: "Websites that are clean, clear and easy to use.",
   intro: "I help small businesses look great online and get more enquiries.",
-  photo: "",                          // your photo file name, like "me.jpg". "" keeps the colour.
+  photo: "assets/avatar.png",                          // your photo file name, like "me.jpg". "" keeps the colour.
   socials: [ { short: "IG", url: "#", label: "Instagram" }, { short: "in", url: "#", label: "LinkedIn" }, { short: "@", url: "mailto:hello@yourname.com", label: "Email" } ],
   formLink: "PASTE-YOUR-FORMSPREE-LINK-HERE",   // free form link from formspree.io
   aboutShort: "Who I am and how I work.",
@@ -264,7 +264,7 @@ const SITE = {
   credentialText: "Your training, certificates or awards.",
   badge: "Your certificate"
 };
-const TOOLS = ["Figma", "Canva", "WordPress", "Webflow", "GitHub", "Vercel", "VS Code", "Claude"];
+const TOOLS = ["Figma", "Canva", "WordPress", "Wix", "GitHub", "Vercel", "VS Code", "Claude"];
 
 // "image" = your photo, saved at 16:9 size (1600 x 900 pixels), like "images/bloom.jpg". Leave "" to use the colour block.
 // "link" is the "View project" button inside the popup. Use "" to hide it.
