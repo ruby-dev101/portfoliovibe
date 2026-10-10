@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Your Name | Freelance Web Designer</title>
+<title>Ruby Anne Aguilar | Freelance Web Designer</title>
 <meta name="theme-color" content="#F4F4ED">
-<meta name="description" content="Freelance web designer building clean, modern websites for small businesses.">
+<meta name="description" content="Strategic website design for service businesses">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#F4F4ED;--side:#FBFAF6;--card:#FFFFFF;--line:#E6E6DC;--navy:#0F1F3D;--ink:#1B2A44;--muted:#6B7385;--orange:#F97316;--glow:#C9D3FF;--rail:clamp(250px,22vw,310px);--font:'Plus Jakarta Sans',system-ui,sans-serif}
+:root{--bg:#F4F4ED;--side:#FBFAF6;--card:#FFFFFF;--line:#E6E6DC;--dark:#10002B;--ink:#1B2A44;--muted:#6B7385;--purple:#8c00ff;--glow:#C9D3FF;--rail:clamp(250px,22vw,310px);--font:'Plus Jakarta Sans',system-ui,sans-serif}
 *{box-sizing:border-box;margin:0}
 html{overflow-x:hidden;-webkit-text-size-adjust:100%}
 body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.55;font-size:16px;min-height:100vh}
@@ -20,12 +20,20 @@ svg.i{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:1.8;
 
 /* sidebar */
 .side{position:fixed;top:0;left:0;bottom:0;width:var(--rail);background:var(--side);border-right:1px solid var(--line);padding:34px 24px 24px;display:flex;flex-direction:column;align-items:center;overflow:auto;z-index:3}
-.avatar{width:128px;height:128px;border-radius:50%;background:linear-gradient(135deg,#FFD9B8,#FFB27A);background-size:cover;background-position:center;box-shadow:0 0 0 8px rgba(201,211,255,.35)}
-.side h1{font-size:1.5rem;margin-top:18px;display:flex;align-items:center;gap:8px;color:var(--navy)}
+.avatar{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background-image: url('avatar.png'); /* Your local file name */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 8px rgba(201,211,255,.35);
+}
+.side h1{font-size:1.5rem;margin-top:18px;display:flex;align-items:center;gap:8px;color:var(--dark)}
 .side .handle{color:var(--muted);margin-top:2px}
 .socials{display:flex;gap:10px;margin:18px 0 22px}
 .socials a{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:#fff;display:grid;place-items:center;font-weight:700;font-size:.8rem;text-decoration:none;color:var(--navy);transition:transform .2s,border-color .2s}
-.socials a:hover{transform:translateY(-3px);border-color:var(--orange)}
+.socials a:hover{transform:translateY(-3px);border-color:var(--purple)}
 .side hr{width:100%;border:0;border-top:1px solid var(--line);margin-bottom:18px}
 .nav{width:100%;display:flex;flex-direction:column;gap:4px}
 .nav button,.tabs button{font:inherit;font-weight:500;font-size:1.05rem;display:flex;align-items:center;gap:16px;background:none;border:0;color:var(--ink);text-align:left;padding:12px 16px;border-radius:14px;cursor:pointer;transition:background .2s}
